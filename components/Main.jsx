@@ -25,7 +25,7 @@ export default function Main() {
                 </div>
 
                 <div
-                className="relative z-30 p-8 w-88 max-w-md m-10 mx-auto my-20 bg-white  rounded-xl shadow-lg flex flex-col items-center justify-center space-x-4 ring-offset-2 ring-4 ">
+                className="relative z-30 p-8 max-w-sm md:max-w-md m-10 mx-auto my-20 bg-contain bg-white  rounded-xl shadow-lg flex flex-col items-center justify-center space-x-4 ring-offset-2 ring-4 ">
                     <div>
                         <div className="text-xl font-medium text-black"></div>
                         <p className="text-slate-700 text-justify"> A permissionless DAO on a mission to grow and expand the CyberConnect protocol and its ecosystem. By accelerating adoption of its social graph protocol and the dApps leveraging its infrastructure, Conscious DAO will build, fund and support the next generation of social media platforms that are user and creator-centric. </p>
