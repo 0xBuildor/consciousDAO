@@ -8,7 +8,7 @@ export default function Main() {
         <>
             <div className="h-screen overflow-hidden">
                 
-                <video autoPlay loop muted className="absolute z-10 w-full h-screen object-cover " >
+                <video autoPlay loop muted playsInline className="absolute z-10 w-full h-screen object-cover " >
                     <source src="/Assets/terrain.mp4" type="video/mp4" />
                 </video>
                 
@@ -16,7 +16,7 @@ export default function Main() {
                 className="relative z-30 flex flex-row items-center justify-center mt-24  ">
                     <a href="#" >
                         <img
-                            className=" z-10 bg-transparent w-44 md:w-80 h-auto"
+                            className=" z-10 bg-transparent w-52 md:w-80 h-auto"
                             src="Assets/Logo.svg"
                             alt=""
                         />
