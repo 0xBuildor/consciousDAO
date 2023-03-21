@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { navVariants } from "@/utils/motion";
 import { fadeIn } from "@/utils/motion";
 import GlowingButton from '../components/GlowingButton';
+import Link from "next/link";
 
 export default function Main() {
     return (
@@ -34,7 +35,7 @@ export default function Main() {
                     </div>
                   {/* <button className="rounded-full border-2 px-2 py-1 text-slate-800 text-sm mt-4 bg-white shadow-lg transition ease-out hover:-translate-y-1 hover:scale-110 duration-200">💬 Join the Community</button> */} 
 
-                    <GlowingButton label="💬 Join the Community" />
+                    <Link href="https://discord.gg/d3ZQw6zauw"><GlowingButton label="💬 Join the Community" /> </Link>
                  </div>
 
                  
